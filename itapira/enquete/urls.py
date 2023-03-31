@@ -1,8 +1,9 @@
 #importando a função path
-from dango.urls import paht
+from django.urls import path
 #enchergando o arquivo views
 from . import views
 #
-urlpatterns + [
-    paht('', views.index, name='index')
+urlpatterns = [
+    path('', views.index, name='index'),
+    path('', views.valkor, name='valkor')
 ]
