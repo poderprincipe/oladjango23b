@@ -1,6 +1,6 @@
 # oladjango23b
 
-## Comandos (03/03/2023)
+## Comandos (14/04/2023)
 *criar um projeto*
 - python -m django startprojet itapira 
 *entrar na pasta do manage.py*
